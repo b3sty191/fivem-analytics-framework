@@ -1,0 +1,20 @@
+{
+  "name": "fivem-server-list",
+  "version": "1.0.0",
+  "description": "Made by B3sty",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "bun run example.ts",
+    "example": "bun run example.ts",
+    "analyze": "bun run analysis.ts",
+    "demo": "bun run analysis.ts --demo"
+  },
+  "dependencies": {
+    "frame-stream": "^5.0.1",
+    "protobufjs": "^7.5.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
